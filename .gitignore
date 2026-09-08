@@ -1,0 +1,24 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+env/
+venv/
+.env
+.venv
+
+# Data ignores
+data/
+*.txt
+*.csv
+
+#IDE-specific ignores
+.vs/
+.vscode/
+bin/
+obj/
+
+# Output artifacts
+results/plots/**/*.png
+results/plots/*.png
+results/tables/*.xlsx
+results/tables/*.csv
